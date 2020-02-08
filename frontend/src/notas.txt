@@ -1,0 +1,40 @@
+
+// Arquivos deletados de index.js original do react
+
+//import './index.css';
+//import * as serviceWorker from './serviceWorker';
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+// Learn more about service workers: https://bit.ly/CRA-PWA
+//serviceWorker.unregister();
+
+// <tag html dentro do react> é um JSX (Javascript+XML)
+
+// Conceitos do React:
+// Componente: Bloco isolado de HTML, CSS e JS, o qual não interfere no restante da aplicação
+// Propriedade: Informações que um componente PAI passa para um componente FILHO
+// Estado: Informações mantidas pelo componente (Lembrar: Imutabilidade)
+
+// Deletados da Aula:
+
+/* import React, { useState } from 'react';
+import Header from './Header';
+
+function App() {
+  const [counter, setCounter] = useState(0);
+
+  function incrementCounter() {
+    setCounter(counter + 1);
+  }
+
+  return (
+    <>
+    <Header title="Título 1" />
+    <Header title="Título 2" />
+    <Header title="Título 3" />
+    <h1>Contador: {counter}</h1>
+    <button onClick={incrementCounter}>Incrementar</button>
+    </>
+  );
+}
+*/

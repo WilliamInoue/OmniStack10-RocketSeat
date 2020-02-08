@@ -1,0 +1,34 @@
+
+/*
+Métodos HTTP: get, post, put, delete
+
+Tipos de parâmetros:
+
+Query Params: request.query (Filtros, ordenação, paginação, ...)
+Route Params: request.params (Idenntificar um recurso na alteração ou remoção)
+Body: request.body (Dados para criação ou alteração de um registro)
+
+MongoDB (Não Relacional)
+
+app.get('/', (request, response) => {
+    console.log(request.query);
+    //return response.send('Hello World');
+    return response.json({ message: 'Hello OmniStack' });
+});
+
+app.delete('/users/:id', (request, response) => {
+    console.log(request.params);
+    return response.json({ message: 'Hello OmniStack' });
+});
+
+app.post('/users', (request, response) => {
+    console.log(request.body);
+    return response.json({ message: 'Hello OmniStack' });
+});
+*/
+
+    //console.log(name, avatar_url, bio, github_username);
+    //console.log(request.body);
+    //return response.json({ message: 'Hello OmniStack' });
+
+    /* Controller tem 5 funções: index, show, store, update , destroy */
